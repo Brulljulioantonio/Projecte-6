@@ -1,0 +1,1 @@
+print("Biel Rull Simon, 18 anys")
