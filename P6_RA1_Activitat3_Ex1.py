@@ -1,0 +1,2 @@
+nom ="Biel"
+print(nom)
