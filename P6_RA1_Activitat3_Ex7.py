@@ -1,0 +1,6 @@
+valor1 = int(input("Valor nº1: "))
+valor2 = int(input("Valor nº2: "))
+print("suma:",valor1 + valor2)
+print("resta:",valor1 - valor2)
+print("multiplicació:",valor1 * valor2)
+print("divisió",valor1 / valor2)
