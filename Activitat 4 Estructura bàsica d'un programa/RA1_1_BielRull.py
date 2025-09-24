@@ -1,4 +1,4 @@
-# Què fa el programa:
+# Què fa el programa: Calcula l'àrea d'un cercle
 # Autor: Biel Rull Simon
 # Data: 19/09/25
 
