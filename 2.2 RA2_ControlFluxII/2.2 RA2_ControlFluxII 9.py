@@ -1,6 +1,6 @@
-# Què fa el programa: 
+# Què fa el programa: demana una sèrie de números i mostra el més gran
 # Autor: Biel Rull Simon
-# Data: 
+# Data:  8/10/25
 
 # Versió 1.0
 

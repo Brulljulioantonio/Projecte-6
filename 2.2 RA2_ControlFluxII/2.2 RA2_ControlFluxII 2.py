@@ -1,6 +1,6 @@
-# Què fa el programa: 
+# Què fa el programa: suma els nombres naturals començant per l'1 fins que la suma sigui major o igual a 100
 # Autor: Biel Rull Simon
-# Data: 
+# Data:  8/10/25
 
 # Versió 1.0
 

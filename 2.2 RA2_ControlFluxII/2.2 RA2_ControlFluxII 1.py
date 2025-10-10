@@ -1,6 +1,6 @@
-# Què fa el programa: 
+# Què fa el programa: fa un compte enrere des del 10 fins al 0 i després escriu "Feliç any nou"
 # Autor: Biel Rull Simon
-# Data: 
+# Data: 8/10/25
 
 # Versió 1.0
 

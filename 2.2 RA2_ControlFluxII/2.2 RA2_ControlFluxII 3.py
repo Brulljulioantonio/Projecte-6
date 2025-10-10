@@ -1,6 +1,6 @@
-# Què fa el programa: 
+# Què fa el programa: mostra la taula de multiplicar del número que l'usuari introdueix
 # Autor: Biel Rull Simon
-# Data: 
+# Data:  8/10/25
 
 # Versió 1.0
 

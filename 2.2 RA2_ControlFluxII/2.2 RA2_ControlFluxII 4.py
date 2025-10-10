@@ -1,6 +1,6 @@
-# Què fa el programa: 
+# Què fa el programa: genera un numero aleatori entre 1 i 100 i l'usuari ha d'endevinar-lo
 # Autor: Biel Rull Simon
-# Data: 
+# Data:  8/10/25
 
 # Versió 1.0
 

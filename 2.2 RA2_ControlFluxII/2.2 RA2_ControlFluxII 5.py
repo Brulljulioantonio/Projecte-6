@@ -1,6 +1,6 @@
-# Què fa el programa: 
+# Què fa el programa: demana un numero enter i diu si és parell o senar
 # Autor: Biel Rull Simon
-# Data: 
+# Data:  8/10/25
 
 # Versió 1.0
 
@@ -10,7 +10,7 @@ while num < 0:
     num = int(input("Numero enter? "))
 
 if num % 2 == 0:
-    print("Par")
+    print("Parell")
 
 elif num % 2 != 0:
-    print("Impar")
+    print("Senar")
