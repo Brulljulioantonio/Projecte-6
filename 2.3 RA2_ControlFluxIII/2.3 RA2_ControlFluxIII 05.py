@@ -1,4 +1,4 @@
-# Què fa el programa: Aquest programa demana a l'usuari que introdueixi un número enter positiu i després imprimeix una sèrie de números des de 0 fins al número introduït (inclosos).
+# Què fa el programa: Aquest programa demana a l'usuari que introdueixi un número enter positiu i després imprimeix una sèrie de números des de 2 fins al número introduït.
 # Autor: Biel Rull Simon
 # Data: 17/10/2025
 
