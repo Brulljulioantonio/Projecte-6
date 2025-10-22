@@ -5,8 +5,9 @@
 # Versió 1.0
 
 try:
-    num = int(input("Introdueix un número enter positiu: "))
-    for i in range(1, num + 1):
-        print(i + num)
+    num = int(input("Introdueix un número primer: "))
+    for i in range(2, num + 1):
+        print(i)
+
 except ValueError:
     print("Si us plau, introdueix un número enter vàlid.")

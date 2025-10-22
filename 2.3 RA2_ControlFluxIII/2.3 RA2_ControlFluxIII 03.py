@@ -6,7 +6,8 @@
 
 try:
     num = int(input("Introdueix un número enter positiu: "))
-    for i in range(1, num + 1):
-        print(i + num)
+    for i in range(1, 11):
+        print(num, "*" ,i, "=", num * i)
+
 except ValueError:
     print("Si us plau, introdueix un número enter vàlid.")
