@@ -4,6 +4,5 @@
 
 # Versió 1.0
 
-nombres = input("Introdueix 5 nombres separats per espais: ").split()
-for i in nombres:
-    print(i)
+nombres = list(input("Introdueix 5 nombres separats per espais: ").split())
+print(nombres)
