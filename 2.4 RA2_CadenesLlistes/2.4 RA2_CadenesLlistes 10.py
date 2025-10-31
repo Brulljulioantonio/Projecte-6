@@ -4,3 +4,7 @@
 
 # Versió 1.0
 
+cadena1 = input("Introdueix la primera cadena: ")
+cadena2 = input("Introdueix la segona cadena: ")
+resultat = cadena1 + "-" + cadena2
+print(resultat)
