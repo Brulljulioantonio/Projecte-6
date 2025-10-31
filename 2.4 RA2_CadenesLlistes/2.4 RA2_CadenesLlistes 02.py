@@ -1,4 +1,4 @@
-# Què fa el programa: Aquest programa demana a l'usuari que introdueixi una cadena de caràcters i després compta i imprimeix el nombre de vocals que conté la cadena.
+# Què fa el programa: Demana una frase i compta quantes vocals conté.
 # Autor: Biel Rull Simon
 # Data: 22/10/2025
 
