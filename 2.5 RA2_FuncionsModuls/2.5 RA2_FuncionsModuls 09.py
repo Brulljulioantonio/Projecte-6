@@ -3,4 +3,14 @@
 # 2. Torni tant l'estat com una descripció (return estat, descripcio).
 
 # Autor: Biel Rull Simon
+edat = int(input("Introdueix una edat "))
 
+def estat_persona(edat):
+    if edat <= 17:
+        return "menor d'edat"
+    elif edat >= 18:
+        return "major d'edat"
+    elif edat >= 70:
+        return "jubilat"
+        
+print(estat_persona(edat))
