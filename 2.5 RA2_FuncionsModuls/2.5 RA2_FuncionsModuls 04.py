@@ -7,7 +7,8 @@ def es_parell(numero):
     parells = []
     for i in numero:
         if i % 2 == 0:
-            return parells.append(True)
+            parells.append(True)
         else:
-            return parells.append(False)
+            parells.append(False)
+    return parells
 print(es_parell(numero))
