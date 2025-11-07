@@ -1,10 +1,12 @@
 # Què fa el programa: Escriu una funció suma(a, b) que retorni la suma de a i b.
 # Autor: Biel Rull Simon
 
-a = int(input("Introdueix el primer nombre: "))
-b = int(input("Introdueix el segon nombre: "))
+a = 1
+b = 1
 
 def suma(a, b):
     resultat = a + b
     return resultat
-print(suma(a, b))
+print(suma(2, 3))
+print(suma(10, 20))
+print(suma(-5, 7))

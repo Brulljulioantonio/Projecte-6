@@ -6,11 +6,11 @@
 edat = int(input("Introdueix una edat "))
 
 def estat_persona(edat):
-    if edat <= 17:
+    if edat < 18:
         return "menor d'edat"
-    elif edat >= 18:
+    elif edat < 64:
         return "major d'edat"
-    elif edat >= 70:
+    elif edat >= 65:
         return "jubilat"
         
 print(estat_persona(edat))
