@@ -3,9 +3,9 @@
 
 nom = "amic"
 
-def saluda_nom(nom):
+def saluda_nom(nom="amic"):
     print("Hola", nom)
     return
 saluda_nom("Joan")
-saluda_nom(nom)
+saluda_nom()
 saluda_nom("Laia")

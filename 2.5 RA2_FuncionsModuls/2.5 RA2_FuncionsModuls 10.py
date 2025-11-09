@@ -11,4 +11,8 @@ def filtra_parells(llista):
         if nombre % 2 != 0:
             llista.remove(nombre)
     return llista
-print(filtra_parells(llista))
+# Descomentar seguent linea per provar la funció amb la llista definida
+# print(filtra_parells(llista))
+
+print(filtra_parells([1, 2, 3, 4, 5, 6]))
+print(filtra_parells([10, 15, 20, 25, 30]))

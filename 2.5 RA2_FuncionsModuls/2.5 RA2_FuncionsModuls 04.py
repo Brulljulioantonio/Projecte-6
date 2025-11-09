@@ -4,11 +4,9 @@
 numero = [1, 2, 3, 4, 5, 6]
 
 def es_parell(numero):
-    parells = []
     for i in numero:
         if i % 2 == 0:
-            parells.append(True)
+            print("El número ", i ," és parell: " , True)
         else:
-            parells.append(False)
-    return parells
-print(es_parell(numero))
+            print("El número ", i ," és parell: " , False)
+es_parell(numero)
