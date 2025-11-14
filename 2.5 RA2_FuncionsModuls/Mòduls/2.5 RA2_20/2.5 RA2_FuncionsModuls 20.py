@@ -1,7 +1,7 @@
 # Què fa el programa:
 # Autor: Biel Rull Simon
 
-import calcula
+import calculadora
 
 while True:
     print("\n--- MENÚ ---")
@@ -21,12 +21,12 @@ while True:
     b = int(input("Segon número: "))
 
     if opcio == "1":
-        print("Resultat:", calcula.suma(a, b))
+        print("Resultat:", calculadora.suma(a, b))
     elif opcio == "2":
-        print("Resultat:", calcula.resta(a, b))
+        print("Resultat:", calculadora.resta(a, b))
     elif opcio == "3":
-        print("Resultat:", calcula.multiplicar(a, b))
+        print("Resultat:", calculadora.multiplicar(a, b))
     elif opcio == "4":
-        print("Resultat:", calcula.dividi(a, b))
+        print("Resultat:", calculadora.dividir(a, b))
     else:
         print("Opció no vàlida")
