@@ -3,9 +3,7 @@
 
 try:
     fitxer = open("/workspaces/Projecte-6/2.6 RA2_Fitxers/2.6 RA2_Fitxers 09/dades.txt", "r")
-    contingut = fitxer.read()
-    print("Contingut del fitxer:")
-    print(contingut)
+    print("Contingut del fitxer:", fitxer.read())
     fitxer.close()
 except FileNotFoundError:
     fitxer = open("/workspaces/Projecte-6/2.6 RA2_Fitxers/2.6 RA2_Fitxers 09/dades.txt", "w")
