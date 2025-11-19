@@ -6,6 +6,6 @@ fitxer.write("primera linea\n")
 fitxer.write("segona linea\n")
 fitxer.write("tercera linea\n")
 
-fitxer = open("sortida.txt", "r")
+fitxer = open("/workspaces/Projecte-6/2.6 RA2_Fitxers/2.6 RA2_Fitxers 02/sortida.txt", "r")
 print(fitxer.read())
 fitxer.close()
