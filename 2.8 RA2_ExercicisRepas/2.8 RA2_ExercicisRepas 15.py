@@ -3,8 +3,8 @@
 
 try:
 
-    num = int(input("Introdueix un número decimal: "))
-    print(num)
+    num = (input("Introdueix un número decimal: "))
+    print(int(num))
     
 except ValueError:
     print("Valor no valid")
