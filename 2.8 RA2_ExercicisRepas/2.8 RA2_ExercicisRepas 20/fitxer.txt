@@ -1,0 +1,2 @@
+El total es: 15
+La mitjana es: 5.0
