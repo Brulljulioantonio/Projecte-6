@@ -11,8 +11,3 @@ class Rectangle:
     
     def perimetre(self):
         print(2 * (self.amplada + self.alçada))
-
-r1 = Rectangle(5, 3)
-
-r1.area()
-r1.perimetre()

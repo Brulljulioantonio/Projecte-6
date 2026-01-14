@@ -11,8 +11,3 @@ class Producte:
     
     def percentatge(self):
         print(f"{self.nom} {self.preu * 0.5} Rebaixa 50%")
-        
-p1 = Producte("fent", 19.99)
-
-p1.productes()
-p1.percentatge()

@@ -11,7 +11,3 @@ class Estudiant:
             print(f"{self.nom} aprobat")
         else:
             print(f"{self.nom} suspès")
-        
-e1 = Estudiant("Carlos", 4)
-
-e1.Nota_es()

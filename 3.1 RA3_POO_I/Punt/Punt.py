@@ -12,8 +12,3 @@ class Punt:
         dx = altre_punt.x - self.x
         dy = altre_punt.y - self.y
         return math.sqrt(dx**2 + dy**2)
-    
-p1 = Punt(12, -7)
-p2 = Punt(5, 3)
-
-print(p1.distancia(p2))

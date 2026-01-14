@@ -8,7 +8,3 @@ class Persona:
     
     def presentar_se(self):
         print(f"Hola soc {self.nom} i tinc {self.edat} anys")
-
-p1 = Persona("Ramon", 19)
-
-p1.presentar_se()

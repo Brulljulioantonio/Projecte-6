@@ -19,7 +19,3 @@ class CompteBancari:
         
     def veure_saldo(self):
         print(f"Tens {self.saldo}€")
-
-cb1 = CompteBancari(100)
-
-cb1.retirar()

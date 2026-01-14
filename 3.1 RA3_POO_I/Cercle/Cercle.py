@@ -12,8 +12,3 @@ class Cercle:
 
     def perimetre(self):
         return 2 * math.pi * self.radi
-
-c1 = Cercle(100)
-
-print(f"Àrea: {c1.area()}")
-print(f"Perímetre: {c1.perimetre()}")

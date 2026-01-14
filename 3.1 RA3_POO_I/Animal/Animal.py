@@ -8,7 +8,3 @@ class Animal:
 
     def fer_soroll(self):
         print(f"{self.nom} el {self.espècie} fa un soroll")
-
-a1 = Animal("Canito", "porc")
-
-a1.fer_soroll()
