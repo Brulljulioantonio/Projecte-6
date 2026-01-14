@@ -41,8 +41,11 @@ class CompteBancari:
         """
         print(f"Quantitat a retirar")
         quantitat = int(input())
-        self.saldo = self.saldo - quantitat
-        print(f"Tens {self.saldo}€")
+        if quantitat > self.saldo:
+            print(f"No tens suficient saldo")
+        else:
+            self.saldo = self.saldo - quantitat
+            print(f"Tens {self.saldo}€")
         
     def veure_saldo(self):
         """
