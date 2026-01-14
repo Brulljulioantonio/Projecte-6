@@ -3,4 +3,6 @@
 
 from Persona import Persona
 p1 = Persona("Ramon", 19)
-p1.presentar_se()
+p2 = Persona("Joan", 30)
+p3 = Persona("Pere", 21)
+p2.presentar_se()

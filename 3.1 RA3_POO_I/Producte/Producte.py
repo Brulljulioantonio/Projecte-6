@@ -1,7 +1,7 @@
 # Què fa el programa:
 # Autor: Biel Rull Simon
 # Descripció: Aquest fitxer defineix la classe Producte, que permet crear objectes
-# amb nom i preu, i oferir informació sobre el preu normal i un preu amb rebaixa del 50%.
+# amb nom i preu, i oferir informació sobre el preu normal i un preu amb rebaixa del 10%.
 
 class Producte:
     def __init__(self, nom, preu):
@@ -27,12 +27,12 @@ class Producte:
     
     def percentatge(self):
         """
-        Mètode que mostra el preu del producte amb un descompte del 50%.
-        Calcula el 50% del preu i ho imprimeix.
+        Mètode que mostra el preu del producte amb un descompte del 10%.
+        Calcula el 10% del preu i ho imprimeix.
         Exemple de sortida:
-        "Llapis 1.25 Rebaixa 50%"
+        "Llapis 1.25 Rebaixa 10%"
         """
-        print(f"{self.nom} {self.preu * 0.5} Rebaixa 50%")
+        print(f"{self.nom} {self.preu * 0.9} Rebaixa 10%")
 
 # Exemple d'ús:
 # p1 = Producte("Llapis", 2.5)

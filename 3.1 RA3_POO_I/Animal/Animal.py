@@ -1,34 +1,51 @@
 # Què fa el programa:
 # Autor: Biel Rull Simon
-# Descripció: Aquest fitxer defineix la classe Animal amb atributs i mètodes per 
-# representar animals i fer-los "fer un soroll". 
-# Les dades (nom i espècie) poden venir d'un altre fitxer o d'entrada de l'usuari.
+# Descripció: Aquest fitxer defineix la classe Animal i la classe Gos que hereta d'Animal.
+# Permet crear animals amb nom i espècie, fer-los "fer un soroll" i especialitzar el soroll
+# per als gossos.
 
 class Animal:
     def __init__(self, nom, espècie):
         """
         Constructor de la classe Animal.
-        Inicialitza els atributs:
-        - nom: nom de l'animal (per exemple, "Toby")
-        - espècie: tipus d'animal (per exemple, "gos")
-        
-        Quan es crea un objecte de tipus Animal, s'han de passar aquests dos valors.
+        Atributs:
+        - nom: nom de l'animal (ex. "Toby")
+        - espècie: tipus d'animal (ex. "gos")
         """
         self.nom = nom
         self.espècie = espècie
 
     def fer_soroll(self):
         """
-        Mètode que simula que l'animal fa un soroll.
-        Actualment imprimeix un text genèric que inclou el nom i l'espècie.
+        Mètode que mostra un soroll genèric per qualsevol animal.
         Exemple de sortida: "Toby el gos fa un soroll"
-        
-        Si les dades venen d'un altre fitxer, només cal crear objectes Animal
-        amb els valors corresponents i cridar aquest mètode.
         """
         print(f"{self.nom} el {self.espècie} fa un soroll")
 
-# Exemple d'ús:
-# Si tinguéssim un altre fitxer amb dades d'animals, podríem fer:
-# a1 = Animal(dades['nom'], dades['espècie'])
-# a1.fer_soroll()
+
+class Gos(Animal):
+    """
+    Classe Gos que hereta d'Animal.
+    Sobreescriu el mètode fer_soroll per fer un soroll específic de gos.
+    """
+    def __init__(self, nom):
+        """
+        Constructor de la classe Gos.
+        Només cal passar el nom; l'espècie es defineix automàticament com 'gos'.
+        """
+        super().__init__(nom, "gos")  # crida el constructor de la classe base
+
+    def fer_soroll(self):
+        """
+        Mètode que mostra el soroll específic d'un gos.
+        Exemple de sortida: "Toby fa Bup bup!"
+        """
+        print(f"{self.nom} fa Bup bup!")
+
+
+# Exemple d'ús correcte:
+#a1 = Animal("Canito", "porc")
+#g1 = Gos("Dani")  # Només passem el nom, l'espècie ja és 'gos'
+
+#a1.fer_soroll()  # Sortida: Canito el porc fa un soroll
+#g1.fer_soroll()  # Sortida: Dani fa Bup bup!
