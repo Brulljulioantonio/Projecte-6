@@ -1,17 +1,20 @@
 # Autor: Biel Rull Simon
 # Descripció:
 
+class Descompte20:
+    def aplicar(self, preu):
+        return preu * 0.2
+        
+
 class CarretCompra:
     def __init__(self, total):
         self.total = total
-
-    def calcular_total_amb_descompte(self):
-        descompte = self.total * 0.2
+        
+    def calcular_total_amb_descompte(self, descompte):
         return self.total - descompte
+    
+descompte20 = Descompte20()
+carret = CarretCompra(100)
+descompte = descompte20.aplicar(carret.total)
 
-class Descompte20:
-    def aplicar_d(self, preu):
-        preu * 0.2
-
-carretcompra = CarretCompra()
-CarretCompra.calcular_total_amb_descompte(120)
+print(f"{carret.calcular_total_amb_descompte(descompte)}")
