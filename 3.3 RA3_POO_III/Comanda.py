@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció:
+# Descripció: Implementació d'una classe Comanda que utilitza un notificador per enviar notificacions.
 
 class EmailNotificador:
     def enviar(self,missatge):

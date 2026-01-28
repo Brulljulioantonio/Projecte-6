@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció:
+# Descripció: Implementació d'una classe Descompte20 que aplica un descompte del 20% al total d'un carret de compra.
 
 class Descompte20:
     def aplicar(self, preu):
