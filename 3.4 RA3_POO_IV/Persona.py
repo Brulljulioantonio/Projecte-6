@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció: 
+# Descripció: Implementa una jerarquia de classes per a persones i treballadors.
 
 class Persona:
     def __init__(self, nom, edat):

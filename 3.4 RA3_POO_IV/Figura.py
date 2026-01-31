@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció: 
+# Descripció: Exercici d'herència i polimorfisme amb classes de figures geomètriques
 
 import math
 

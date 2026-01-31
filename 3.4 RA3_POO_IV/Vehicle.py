@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció: 
+# Descripció: Implementació de classes Vehicle i Cotxe amb herència en Python.
 
 class Vehicle:
     def __init__(self, marca):
