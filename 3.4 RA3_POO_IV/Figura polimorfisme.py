@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció: 
+# Descripció: Exemple de polimorfisme amb figures geomètriques utilitzant la biblioteca turtle.
 
 import turtle
 

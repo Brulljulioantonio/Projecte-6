@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció: 
+# Descripció: Programa que defineix una classe Empleat i dues subclasses Fixe i Autonom.
 
 class Empleat:
     def calcular_sou(self):

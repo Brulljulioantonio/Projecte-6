@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció: 
+# Descripció: Exemple de polimorfisme amb classes d'animals
 
 class Animal:
     def fer_soroll(self):

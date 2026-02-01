@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció: 
+# Descripció: Implementa el patró de disseny Strategy per enviar missatges a través de diferents canals (Email, SMS, WhatsApp).
 
 class Missatger:
     def __init__(self, missatgers, missatge):

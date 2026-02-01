@@ -1,5 +1,5 @@
 # Autor: Biel Rull Simon
-# Descripció: 
+# Descripció: Exemple de polimorfisme amb vehicles
 
 class Vehicle:
     def moure(self):
