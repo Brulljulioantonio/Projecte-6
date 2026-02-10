@@ -10,7 +10,7 @@ class Fixe(Empleat):
         self.salari_base = salari_base
     
     def calcular_sou(self):
-        print(self.salari_base)
+        print(f"{self.salari_base}€")
 
 class Autonom(Empleat):
     def __init__(self, hores, preu_hora):
@@ -23,7 +23,7 @@ class Autonom(Empleat):
 def mostrar_sous(tipus):
     tipus.calcular_sou()
 
-sb = "1200€"
+sb = 1200
 f = Fixe(sb)
 
 h = 8

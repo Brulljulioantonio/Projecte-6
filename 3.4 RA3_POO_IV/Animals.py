@@ -7,11 +7,11 @@ class Animal:
 
 class Gos(Animal):
     def parlar(self):
-        print("El gos fa un so")
+        print("bup bup")
         
 class Gat(Animal):
     def parlar(self):
-        print("El Gat fa un so")
+        print("miau miau")
 
 a = Animal()
 go = Gos()

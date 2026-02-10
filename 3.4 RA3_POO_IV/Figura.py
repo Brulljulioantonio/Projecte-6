@@ -4,7 +4,7 @@
 import math
 
 class Figura:
-    def area():
+    def area(self):
         print(f"Àrea no definida")
 
 class Quadrat(Figura):
