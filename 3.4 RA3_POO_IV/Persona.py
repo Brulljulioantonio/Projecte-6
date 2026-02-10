@@ -10,7 +10,8 @@ class Persona:
         print(f"Hola soc {self.nom}")
         
 class Treballador(Persona):
-    def __init__(self, feina):
+    def __init__(self, nom, edat, feina):
+        super().__init__(nom, edat)
         self.feina = feina
     
     def mostrar_feina(self):
@@ -21,7 +22,7 @@ edat = "27"
 feina = "bomber"
 
 p = Persona(nom, edat)
-t = Treballador(feina)
+t = Treballador(nom, edat, feina)
 
 p.saludar()
 t.mostrar_feina()
